@@ -30,7 +30,7 @@ In order to use BigQuery API in python, we need to create a credential file (JSO
 To create the credential file follow steps explained here: https://cloud.google.com/bigquery/docs/quickstarts/quickstart-client-libraries
 
 
-# Code organization
+# Code
 
 - `app.py` : Streamlit script to define the UI. 
 
