@@ -1,6 +1,7 @@
 """
 Define Parametric Standar SQL queries 
 All queries are parametrized with year and state
+SQL queries inspired from https://cloud.google.com/solutions/bokeh-and-bigquery-dashboards
 """
 
 YEARS = list(range(1990, 2019, 1))
