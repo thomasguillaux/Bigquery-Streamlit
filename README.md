@@ -1,9 +1,11 @@
 # Bigquery-Streamlit
 
-This project demonstrates running SQL queries on [BigQuery](https://cloud.google.com/bigquery/) public datasets and rendering results into an interactive [Streamlit](https://streamlit.io) app. Serverless deployement via [Google Run](https://cloud.google.com/run/).
+This project demonstrates running SQL queries on [BigQuery](https://cloud.google.com/bigquery/) public datasets and rendering results into an interactive [Streamlit](https://streamlit.io) app. 
 
 Blog post: https://imadelhanafi.com/posts/bigquery_dashboard/
-Live version: 
+
+Live version: https://bigquery.imadelhanafi.com
+
 
 <a href="https://nlp.imadelhanafi.com">
 <img src="https://imadelhanafi.com/data/draft/app.png" width="800" height="450" class="center"/>
@@ -26,11 +28,6 @@ The application will be available on http://0.0.0.0:8080.
 **Note:**
 In order to use BigQuery API in python, we need to create a credential file (JSON file) and declare its path as an environment variable `GOOGLE_APPLICATION_CREDENTIALS` (by default defined in `modules/data_query.py`). 
 To create the credential file follow steps explained here: https://cloud.google.com/bigquery/docs/quickstarts/quickstart-client-libraries
-
-# Serverless deployement - Google Run
-
-To deploy the application on Google Run, follow the same instructions explained in a previous project: https://github.com/imadelh/NLP-news-classification#serverless-deployement---google-run
-
 
 
 
