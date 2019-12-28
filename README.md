@@ -30,6 +30,20 @@ In order to use BigQuery API in python, we need to create a credential file (JSO
 To create the credential file follow steps explained here: https://cloud.google.com/bigquery/docs/quickstarts/quickstart-client-libraries
 
 
+# Code organization
+
+- `app.py` : Streamlit script to define the UI. 
+
+Modules: 
+
+- `modules/data_query.py`: Define Data fetcher from BigQuery (takes an SQL command and return results in Pandas DataFrame).
+
+- `modules/sql_queries.py`: Pre-defined parametrized SQL commands. 
+
+- `modules/utils.py`: Contains a function to run queries concurrently (multi-threading) and a function to compute size of data anluzed by a given query. 
+
+- `modules/plot.py`: Plot functions. 
+
 
 --- 
 By Imad 
