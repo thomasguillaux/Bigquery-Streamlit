@@ -109,7 +109,7 @@ def frame_selector_ui():
 
     year = st.sidebar.selectbox("Select the year of statistics", YEARS, 20)
 
-    # Manul running
+    # Manual running
     # SQL queries are heavy, we will run only if the user hit Run
     if st.sidebar.button(" Run "):
         # Call function to run the queries and return data
